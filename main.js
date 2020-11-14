@@ -10,84 +10,84 @@
 var $ = window.AjQuery.$;
 $("span").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("a").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("b").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("h1").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("h2").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("h3").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("h4").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("h5").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("h6").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("em").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("th").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("tr").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("td").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 $("strong").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
-$(".nv_ul").find("a").each(function(i,e){$(e).html($(e).html().replace(/\s/g, "e"));})
+$(".nv_ul").find("a").each(function(i,e){$(e).html($(e).html().replace(/./g, "e"));})
 
 $("p").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
 
 $("font").each(function(i,e){
 if($(e).children().length == 0){
-$(e).html($(e).html().replace(/\s/g, "e"));
+$(e).html($(e).html().replace(/./g, "e"));
 }
 })
